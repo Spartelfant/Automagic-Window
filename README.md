@@ -7,7 +7,7 @@ Twingo C06 Automagic Power Window Module
 
 **Requirements:**
 - General function: an activation of the window switch that is nearly immediately followed by the release of the switch should result in the window fully opening or closing, while holding the switch for a predetermined amount of time should stop the window the moment the switch is released.
-- A single design usable on either driver and passenger side: due to the original wiring of the car, on one side, the window motor at rest has both poles connected to +12V, the other side has both poles connected to Ground. Assuming the design uses two SPDT relays to control the motor, there needs to be a solder or wire jumper to connect the relays' common connection to either +12V or Ground when building the module.
+- A single design usable on either driver or passenger side: due to the original wiring of the car, on one side, the window motor at rest has both poles connected to +12V, the other side has both poles connected to Ground. Assuming the design uses two SPDT relays to control the motor, there needs to be a solder or wire jumper to connect the relays' common connection to either +12V or Ground when building the module.
 - Current sensing: cut power to the motor if the window is obstructed or has reached the end of travel.
 - Timeout: if after a predetermined amount of time the end of travel hasn't been reached, assume a malfunction, cut power to the motor, revert to manual window control.
 - Fallback: if the module malfunctions and blows its fuse, revert to manual window control.
