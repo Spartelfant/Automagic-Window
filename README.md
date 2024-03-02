@@ -1,7 +1,7 @@
 # Automagic-Window
 Twingo C06 Automagic Power Window Module
 
-**Current status:** This project is something I like to work on intermittently. If and when it reaches a useful state I will upload the source files :)
+**Current status:** I have abandoned this project due to no longer owning this car.
 
 **Project aim:** A module that can be connected between the window switch and window motor on a Renault Twingo C06 to give the window an automatic up / down feature.
 
